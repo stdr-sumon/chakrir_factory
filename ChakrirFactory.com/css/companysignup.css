@@ -1,0 +1,7 @@
+﻿@import "font-awesome.min.css";
+@import "font-awesome-ie7.min.css";
+/* Space out content a bit */
+body {
+    background-color: #eee;
+    background: url("../img/signup.jpg") no-repeat 1px 2px;
+}

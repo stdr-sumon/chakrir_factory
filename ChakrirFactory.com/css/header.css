@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #e8eaed;
+}
+
+.container-fluid a {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav > li > a:hover, .navbar-light .navbar-nav > li > a:focus {
+    background-color: #0f1a42;
+}
+
+.navbar-brand {
+    font-family: 'Sofia';
+    font-size: 22px;
+}

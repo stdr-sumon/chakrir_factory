@@ -1,0 +1,20 @@
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.csprojResolveAssemblyReference.cache
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.DataLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb

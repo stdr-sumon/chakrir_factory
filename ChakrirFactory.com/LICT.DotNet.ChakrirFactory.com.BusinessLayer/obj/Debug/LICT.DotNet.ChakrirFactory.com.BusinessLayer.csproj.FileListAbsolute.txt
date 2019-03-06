@@ -1,0 +1,42 @@
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csprojResolveAssemblyReference.cache
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.Properties.Resources.resources
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csproj.GenerateResource.Cache
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.Properties.Resources.resources
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csproj.GenerateResource.Cache
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.DataLayer.pdb
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.Properties.Resources.resources
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.csproj.GenerateResource.Cache
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.BusinessLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.pdb

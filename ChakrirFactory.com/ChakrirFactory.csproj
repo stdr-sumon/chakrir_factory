@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F3EEE3B-7B8D-44C6-9EAF-1DCDAFB7DCA8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChakrirFactory.com</RootNamespace>
+    <AssemblyName>ChakrirFactory.com</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=18.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Shafayet\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="LICT.DotNet.ChakrirFactory.com.BusinessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LICT.DotNet.ChakrirFactory.com.BusinessLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.BusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="LICT.DotNet.ChakrirFactory.com.EntityLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\add_city.aspx" />
+    <Content Include="Admin\add_country.aspx" />
+    <Content Include="Admin\add_degLevel.aspx" />
+    <Content Include="Admin\add_eduLevel.aspx" />
+    <Content Include="Admin\add_indutryType.aspx" />
+    <Content Include="Admin\add_jobCategory.aspx" />
+    <Content Include="Admin\add_jobLevel.aspx" />
+    <Content Include="Admin\add_JobNature.aspx" />
+    <Content Include="Admin\add_languageProficiency.aspx" />
+    <Content Include="Admin\add_maritalStatus.aspx" />
+    <Content Include="Admin\add_religion.aspx" />
+    <Content Include="Admin\add_reportType.aspx" />
+    <Content Include="Admin\add_skillinfo.aspx" />
+    <Content Include="Admin\index.aspx" />
+    <Content Include="Admin\login.aspx" />
+    <Content Include="alljobshow.aspx" />
+    <Content Include="catjobshow.aspx" />
+    <Content Include="cityjobshow.aspx" />
+    <Content Include="companysignin.aspx" />
+    <Content Include="companysignup.aspx" />
+    <Content Include="Company\index.aspx" />
+    <Content Include="Company\postjob.aspx" />
+    <Content Include="css\jobseekersignup.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\other.css" />
+    <Content Include="css\companysignup.css" />
+    <Content Include="myaccount.aspx" />
+    <Content Include="naturejobshow.aspx" />
+    <Content Include="img\banner.jpg" />
+    <Content Include="img\signup.jpg" />
+    <Content Include="img\tick1.png" />
+    <Content Include="jobseekersignin.aspx" />
+    <Content Include="jobseekersignup.aspx" />
+    <Content Include="JobSeeker\carrerinformation.aspx" />
+    <Content Include="JobSeeker\index.aspx" />
+    <Content Include="JobSeeker\personalinformation.aspx" />
+    <Content Include="JobSeeker\preferredjobcategory.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Master_Pages\Common_MasterPage.Master" />
+    <Content Include="Master_Pages\Admin_MasterPage.Master" />
+    <Content Include="Master_Pages\JobSeeker_MasterPage.Master" />
+    <Content Include="Master_Pages\Company_MasterPage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\footer.css" />
+    <Content Include="css\header.css" />
+    <Content Include="Global.asax" />
+    <Content Include="index.aspx" />
+    <Content Include="scripts\ai.0.22.9-build00167.js" />
+    <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="signout.aspx" />
+    <Content Include="singlejobshow.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\add_city.aspx.cs">
+      <DependentUpon>add_city.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_city.aspx.designer.cs">
+      <DependentUpon>add_city.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_country.aspx.cs">
+      <DependentUpon>add_country.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_country.aspx.designer.cs">
+      <DependentUpon>add_country.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_degLevel.aspx.cs">
+      <DependentUpon>add_degLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_degLevel.aspx.designer.cs">
+      <DependentUpon>add_degLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_eduLevel.aspx.cs">
+      <DependentUpon>add_eduLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_eduLevel.aspx.designer.cs">
+      <DependentUpon>add_eduLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_indutryType.aspx.cs">
+      <DependentUpon>add_indutryType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_indutryType.aspx.designer.cs">
+      <DependentUpon>add_indutryType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_jobCategory.aspx.cs">
+      <DependentUpon>add_jobCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_jobCategory.aspx.designer.cs">
+      <DependentUpon>add_jobCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_jobLevel.aspx.cs">
+      <DependentUpon>add_jobLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_jobLevel.aspx.designer.cs">
+      <DependentUpon>add_jobLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_JobNature.aspx.cs">
+      <DependentUpon>add_JobNature.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_JobNature.aspx.designer.cs">
+      <DependentUpon>add_JobNature.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_languageProficiency.aspx.cs">
+      <DependentUpon>add_languageProficiency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_languageProficiency.aspx.designer.cs">
+      <DependentUpon>add_languageProficiency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_maritalStatus.aspx.cs">
+      <DependentUpon>add_maritalStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_maritalStatus.aspx.designer.cs">
+      <DependentUpon>add_maritalStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_religion.aspx.cs">
+      <DependentUpon>add_religion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_religion.aspx.designer.cs">
+      <DependentUpon>add_religion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_reportType.aspx.cs">
+      <DependentUpon>add_reportType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_reportType.aspx.designer.cs">
+      <DependentUpon>add_reportType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_skillinfo.aspx.cs">
+      <DependentUpon>add_skillinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add_skillinfo.aspx.designer.cs">
+      <DependentUpon>add_skillinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="alljobshow.aspx.cs">
+      <DependentUpon>alljobshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="alljobshow.aspx.designer.cs">
+      <DependentUpon>alljobshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="catjobshow.aspx.cs">
+      <DependentUpon>catjobshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="catjobshow.aspx.designer.cs">
+      <DependentUpon>catjobshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cityjobshow.aspx.cs">
+      <DependentUpon>cityjobshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cityjobshow.aspx.designer.cs">
+      <DependentUpon>cityjobshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="companysignin.aspx.cs">
+      <DependentUpon>companysignin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="companysignin.aspx.designer.cs">
+      <DependentUpon>companysignin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="companysignup.aspx.cs">
+      <DependentUpon>companysignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="companysignup.aspx.designer.cs">
+      <DependentUpon>companysignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Company\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Company\postjob.aspx.cs">
+      <DependentUpon>postjob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company\postjob.aspx.designer.cs">
+      <DependentUpon>postjob.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="myaccount.aspx.cs">
+      <DependentUpon>myaccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="myaccount.aspx.designer.cs">
+      <DependentUpon>myaccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="naturejobshow.aspx.cs">
+      <DependentUpon>naturejobshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="naturejobshow.aspx.designer.cs">
+      <DependentUpon>naturejobshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jobseekersignin.aspx.cs">
+      <DependentUpon>jobseekersignin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jobseekersignin.aspx.designer.cs">
+      <DependentUpon>jobseekersignin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jobseekersignup.aspx.cs">
+      <DependentUpon>jobseekersignup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jobseekersignup.aspx.designer.cs">
+      <DependentUpon>jobseekersignup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeeker\carrerinformation.aspx.cs">
+      <DependentUpon>carrerinformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeeker\carrerinformation.aspx.designer.cs">
+      <DependentUpon>carrerinformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeeker\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeeker\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeeker\personalinformation.aspx.cs">
+      <DependentUpon>personalinformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeeker\personalinformation.aspx.designer.cs">
+      <DependentUpon>personalinformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSeeker\preferredjobcategory.aspx.cs">
+      <DependentUpon>preferredjobcategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSeeker\preferredjobcategory.aspx.designer.cs">
+      <DependentUpon>preferredjobcategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Pages\Admin_MasterPage.Master.cs">
+      <DependentUpon>Admin_MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Pages\Admin_MasterPage.Master.designer.cs">
+      <DependentUpon>Admin_MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Pages\Common_MasterPage.Master.cs">
+      <DependentUpon>Common_MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Pages\Common_MasterPage.Master.designer.cs">
+      <DependentUpon>Common_MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Pages\Company_MasterPage.Master.cs">
+      <DependentUpon>Company_MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Pages\Company_MasterPage.Master.designer.cs">
+      <DependentUpon>Company_MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master_Pages\JobSeeker_MasterPage.Master.cs">
+      <DependentUpon>JobSeeker_MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master_Pages\JobSeeker_MasterPage.Master.designer.cs">
+      <DependentUpon>JobSeeker_MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signout.aspx.cs">
+      <DependentUpon>signout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signout.aspx.designer.cs">
+      <DependentUpon>signout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="singlejobshow.aspx.cs">
+      <DependentUpon>singlejobshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="singlejobshow.aspx.designer.cs">
+      <DependentUpon>singlejobshow.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49947</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49947/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

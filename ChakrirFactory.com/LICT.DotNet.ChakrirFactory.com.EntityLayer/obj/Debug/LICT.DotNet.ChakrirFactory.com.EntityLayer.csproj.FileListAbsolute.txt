@@ -1,0 +1,20 @@
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.csprojResolveAssemblyReference.cache
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.csprojResolveAssemblyReference.cache
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+D:\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.csprojResolveAssemblyReference.cache
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Shafayet\Desktop\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\bin\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.dll
+C:\Users\Sumon\OneDrive\Email attachments\ChakrirFactory.com\LICT.DotNet.ChakrirFactory.com.EntityLayer\obj\Debug\LICT.DotNet.ChakrirFactory.com.EntityLayer.pdb

@@ -1,0 +1,202 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Common_MasterPage.master.cs" Inherits="ChakrirFactory.com.Master_Pages.Common_MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet" />
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/other.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <% if (Session["Js_Name"]  != null || Session["Cmp_Name"]  != null || Session["System_UserName"]  != null) { %> <style>#logedin{display:block} #logedout{display:none}</style> <% } %>
+    <% else { %> <style>#logedin{display:none} #logedout{display:block}</style> <% } %> 
+    <div>
+    <div id="logedin"> 
+        <nav class="navbar navbar-light" style="background-color: #15224f;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.aspx">ChakrirFactory.com</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Jobs <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="naturejobshow.aspx?jobNature_Name=FULL-TIME">Full Time Jobs</a></li>
+                            <li><a href="naturejobshow.aspx?jobNature_Name=PART-TIME">Part Time Jobs</a></li>
+                            <li><a href="naturejobshow.aspx?jobNature_Name=INTERN">Intern Jobs</a></li>
+                            <li><a href="naturejobshow.aspx?jobNature_Name=CONTRACTUAL">Contractual Jobs</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp About Us</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>&nbsp Contact Us</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">  
+                    <% if (Session["Js_Name"] != null) { Response.Write(Session["Js_Name"]) ; %> <% } %>
+                        <% else if (Session["System_UserName"]!= null) { Response.Write(Session["System_UserName"]) ; %> <% } %>
+                        <% else { Response.Write(Session["Cmp_Name"]) ; %> <% } %>
+                    <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="myaccount.aspx">My Account</a></li>
+                                <li><a href="/signout.aspx">Sign Out</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    <div id="logedout">
+        <nav class="navbar navbar-light" style="background-color: #15224f;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">ChakrirFactory.com</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Jobs <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="naturejobshow.aspx?jobNature_Name=FULL-TIME">Full Time Jobs</a></li>
+                            <li><a href="naturejobshow.aspx?jobNature_Name=PART-TIME">Part Time Jobs</a></li>
+                            <li><a href="naturejobshow.aspx?jobNature_Name=INTERN">Intern Jobs</a></li>
+                            <li><a href="naturejobshow.aspx?jobNature_Name=CONTRACTUAL">Contractual Jobs</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp About Us</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>&nbsp Contact Us</a></li>
+                    <li class="dropdown" id="Li1" runat="server"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Sign Up <span class="glyphicon glyphicon-user"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="jobseekersignup.aspx">Jobs Seeker Registration</a></li>
+                            <li><a href="companysignup.aspx">Company Registration</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Sign In <span class="glyphicon glyphicon-log-in"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="jobseekersignin.aspx">Jobs Seeker</a></li>
+                            <li><a href="companysignin.aspx">Company</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+</div>
+ <br>
+    <!--footer-->
+    <footer class="footer1">
+        <div class="container">
+            <div class="row">
+                <!-- row -->
+                <div class="col-lg-3 col-md-3">
+                    <!-- widgets column left -->
+                    <ul class="list-unstyled clear-margins">
+                        <!-- widgets -->
+                        <li class="widget-container widget_nav_menu">
+                            <!-- widgets list -->
+                            <h1 class="title-widget">About Us</h1>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>About ChakrirFactory.com</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Terms & Condition</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>International Partners</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Other Partners</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- widgets column left end -->
+                <div class="col-lg-3 col-md-3">
+                    <!-- widgets column left -->
+                    <ul class="list-unstyled clear-margins">
+                        <!-- widgets -->
+                        <li class="widget-container widget_nav_menu">
+                            <!-- widgets list -->
+                            <h1 class="title-widget">Job Seekers</h1>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Create Account</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Carrer Counseling</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>My ChakrirFactory.com</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- widgets column left end -->
+                <div class="col-lg-3 col-md-3">
+                    <!-- widgets column left -->
+                    <ul class="list-unstyled clear-margins">
+                        <!-- widgets -->
+                        <li class="widget-container widget_nav_menu">
+                            <!-- widgets list -->
+                            <h1 class="title-widget">Companies</h1>
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Create Account</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Product/Service</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>Post a Job</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- widgets column left end -->
+                <div class="col-lg-3 col-md-3">
+                    <!-- widgets column center -->
+                    <ul class="list-unstyled clear-margins">
+                        <!-- widgets -->
+                        <li class="widget-container widget_recent_news">
+                            <!-- widgets list -->
+                            <h1 class="title-widget">Contact Detail </h1>
+                            <div class="footerp">
+                                <h2 class="title-median">ChakrirFactory.com Pvt. Ltd.</h2>
+                                <p><b>Email id:</b> <a href="mailto:info@webenlance.com">info@webenlance.com</a></p>
+                                <p><b>Corp Office: </b>Dakshin Banasree, Dhaka</p>
+                                <p><b>Postal Address: </b>Khilgaon - 1219</p>
+                                <p><b>Phone Numbers : </b>7042827160, </p>
+                                <p>011-27568832, 9868387223</p>
+                            </div>
+                            <div class="social-icons">
+                                <ul class="nomargin">
+                                    <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social-fb" id="social"></i></a>
+                                    <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social-tw" id="social"></i></a>
+                                    <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social-gp" id="social"></i></a>
+                                    <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social-em" id="social"></i></a>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--header-->
+    <div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="copyright">
+                        © 2015, BackDoorIT , All rights reserved     
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="design">
+                        <a href="#">BackDoorIT </a>|  <a target="_blank" href="http://www.backdoorit.com">Web Design & Development by BackDoorIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
